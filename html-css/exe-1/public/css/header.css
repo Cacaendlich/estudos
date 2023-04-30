@@ -1,1 +1,44 @@
 /* cabeçalho */
+/* Foram estilizados o cabeçalho e a lista de navegação com propriedades de flexbox para centralizar e espaçar os elementos.  */
+
+
+
+.main-header{
+    /* border: 2px solid red; */ /*borda pra vizualizar melhor a área*/
+    display: flex; /* Torna o elemento em um contêiner flexível */
+    flex-direction: row; /*  Define o eixo principal do flex container para ser horizontal */
+    justify-content: space-around; /* Distribui os itens igualmente na linha principal e adiciona espaço em branco em torno dos itens */
+    align-items: center; /* Centraliza os itens na linha transversal */
+    gap: 10px 30px; /* Adiciona um espaçamento horizontal de 10 pixels e um espaçamento vertical de 30 pixels entre os itens do flex container*/
+    padding: 20px; /* Adiciona um preenchimento de 20 pixels em todos os lados do flex container */
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*  */
+nav.menu ul{
+    list-style: none; /* Remove os marcadores de lista */
+    margin: 0;
+    padding: 0;
+}
+
+nav.menu {
+    display: flex;
+    justify-content: center; /*Centraliza os itens na linha principal do flex container*/
+
+}
+
+nav.menu ul li {
+    display: inline-block; /*Define os itens como um elemento em bloco com largura automaticamente ajustada ao seu conteúdo e os alinha na mesma linha horizontal*/
+}
+
+nav.menu ul li a{
+    text-decoration: none; /* Remove o underline padrão dos links*/
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.title {
+    margin: 0 40px;
+}
