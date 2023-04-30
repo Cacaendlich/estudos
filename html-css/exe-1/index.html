@@ -1,81 +1,116 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="public/css/footer.css">
-    <link rel="stylesheet" href="public/css/projeto.css">
-    <link rel="stylesheet" href="public/css/index.css">
-</head>
-<body>
-    <div class="content-box">
-        <header>
-            <section>
-                <img src="public/imagens/foto-perfil.jpg" alt="Foto de perfil." class="imagens">
-                <h1 class="title">Camila Endlich</h1>
-            </section>
-        </header>
-        <main>
-            <section>
-                    <h2 class="title">Web Developer</h2>
-                    <p>🎓 Cursando | Tecnólogo em Análise e Desenvolvimento de Sistemas na Universidade Veiga de Almeida - UVA.</p>
-                    <h3 class="title">skills</h3>
-                <figure>
-                    <img src="public/imagens/html5.svg" alt="html5">
-                    <img src="public/imagens/css3.svg" alt="css3">
-                    <img src="public/imagens/git.svg" alt="git">
-                    <img src="public/imagens/js.svg" alt="javascript">
-                    <img src="public/imagens/node.js.svg" alt="node.js">
+    <!-- Abertura da tag htlm -->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="public/css/footer.css">
+        <link rel="stylesheet" href="public/css/projeto.css">
+        <link rel="stylesheet" href="public/css/index.css">
+    </head>
+
+    <body>
+        <!-- Inicio do body -->
+        <div class="container">
+            <!-- Início da div container -->
+            <header>
+                 <!-- Início do cabeçalho -->
+                 <section class="profile-section">
+                    <!-- Seção do nome e foto de perfil -->
+                    <img src="public/imagens/foto-perfil.jpg" alt="Foto de perfil." class="profile-image">
+                    <h1 class="page-title">Camila Endlich</h1>
+                </section>
+            </header>
+
+            <main>
+                <!-- Seção principal do conteúdo -->
+                <section class="skills-section">
+                    <!-- seção acadêmica e de habilidades -->
+                    <h2 class="page-title">Web Developer</h2>
+                    <p>🎓 Cursando | Tecnólogo em Análise e Desenvolvimento de Sistemas na Universidade Veiga de Almeida -
+                        UVA.</p>
+                    <h3 class="page-title">skills</h3>
+                    <figure>
+                        <!-- imagens de Habilidades -->
+                        <img src="public/imagens/html5.svg" alt="html5" class="skill-icon">
+                        <img src="public/imagens/css3.svg" alt="css3" class="skill-icon">
+                        <img src="public/imagens/git.svg" alt="git" class="skill-icon">
+                        <img src="public/imagens/js.svg" alt="javascript" class="skill-icon">
+                        <img src="public/imagens/node.js.svg" alt="node.js" class="skill-icon">
+                    </figure>
+                    
+                    <nav>
+                        <ul class="links-list">
+                            <!-- lista de links de contato -->
+                            <li><a href="https://www.linkedin.com/in/camilaendlich/" target="_blank">Linkedin</a></li>
+                            <li><a href="https://github.com/Cacaendlich" target="_blank">Github</a></li>
+                            <li><a href="mailto:camilaendlichpimenta.trab@gmail.com" target="_blank">Email</a></li>
+                            <li><a href="tel:+5521969066303">Celular</a></li>
+                        </ul>
+                    </nav>
+                    <h2 class="page-title">Projetos</h2>
+                    <!-- início de projetos -->
+                </section>
+
+                <figure class="project-image">
+                    <!-- foto/link dos projetos -->
+                    <a href="projeto1.html">
+                        <img src="public/imagens/projeto_1.jpg" alt="projeto 1">
+                        <figcaption>projeto 1</figcaption>
+                    </a>
+                    <a href="projeto2.html">
+                        <img src="public/imagens/projeto_2.jpg" alt="projeto 2">
+                        <figcaption>projeto 2</figcaption>
+                    </a>
+                    <a href="projeto3.html">
+                        <img src="public/imagens/projeto_3.jpg" alt="projeto 3">
+                        <figcaption>projeto 3</figcaption>
+                    </a>
                 </figure>
+
+                <section class="experiences-section">
+                    <!-- Resumo de experiência -->
+                    <p>Atualmente estou cursando Análise e Desenvolvimento de Sistemas e, além disso, tenho buscado
+                        constantemente me aperfeiçoar na área participando de bootcamps e cursos online. Estou em transição
+                        de carreira e animada para ingressar na área de desenvolvimento de software.
+                    </p>
+                    <h2>Experiência em outras áreas</h2>
+                    <ul class="experience-list">
+                        <!-- lista de experiências -->
+                        <li>
+                            <p>Atendente - McDonald's (7 meses).</p>
+                        </li>
+                        <li>
+                            <p>Atendente - Spoleto (1 ano e 7 meses).</p>
+                        </li>
+                        <li>
+                            <p>Laboratorista de solos - Concremat (7 meses).</p>
+                        </li>
+                        <li><a href="" class="resume-download-link">Baixar curriculo</a></li>
+                        <!-- curriculo em pdf(ainda n fiz) -->
+                    </ul>
+                </section>
+            </main>
+
+            <footer class="main-footer">
+                <!-- início do rodapé -->
                 <nav>
-                    <ul>
+                    <ul class="links-list">
+                            <!-- lista de links de contato -->
+
+                        <li><a href="index.html">Voltar ao topo ↑</a></li>
                         <li><a href="https://www.linkedin.com/in/camilaendlich/" target="_blank">Linkedin</a></li>
                         <li><a href="https://github.com/Cacaendlich" target="_blank">Github</a></li>
                         <li><a href="mailto:camilaendlichpimenta.trab@gmail.com" target="_blank">Email</a></li>
                         <li><a href="tel:+5521969066303">Celular</a></li>
                     </ul>
                 </nav>
-            </section>
-            <h2 class="title">Projetos</h2>
-            <figure class="imagens">
-                <a href="projeto1.html">
-                    <img src="public/imagens/projeto_1.jpg" alt="projeto 1">
-                    <figcaption>projeto 1</figcaption>
-                </a>
-                <a href="projeto2.html">
-                    <img src="public/imagens/projeto_2.jpg" alt="projeto 2">
-                    <figcaption>projeto 2</figcaption>
-                </a>
-                <a href="projeto3.html">
-                    <img src="public/imagens/projeto_3.jpg" alt="projeto 3">
-                    <figcaption>projeto 3</figcaption>
-                </a>
-            </figure>
-            <section>
-                <p><p>Atualmente estou cursando Análise e Desenvolvimento de Sistemas e, além disso, tenho buscado constantemente me aperfeiçoar na área participando de bootcamps e cursos online. Estou em transição de carreira e animada para ingressar na área de desenvolvimento de software.</p></p>
-                <h2>Experiência em outras áreas</h2>
-                <ul>
-                    <li><p>Atendente - McDonald's (7 meses).</p></li>
-                    <li><p>Atendente - Spoleto (1 ano e 7 meses).</p></li>
-                    <li><p>Laboratorista de solos - Concremat (7 meses).</p></li>
-                    <li><a href="">Baixar curriculo</a></li>
-                </ul>
-            </section>
-        </main>
-        <footer>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Voltar ao topo ↑</a></li>
-                    <li><a href="https://www.linkedin.com/in/camilaendlich/" target="_blank">Linkedin</a></li>
-                    <li><a href="https://github.com/Cacaendlich" target="_blank">Github</a></li>
-                    <li><a href="mailto:camilaendlichpimenta.trab@gmail.com" target="_blank">Email</a></li>
-                    <li><a href="tel:+5521969066303">Celular</a></li>
-                </ul>
-            </nav>
-            <h1>Camila Endlich</h1>
-        </footer>
-        </body>
-    </div>
+                <h1 class="page-title">Camila Endlich</h1>
+            </footer>
+
+        </div>
+    </body>
+
 </html>
