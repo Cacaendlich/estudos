@@ -1,7 +1,10 @@
 /* cabeçalho */
 /* Foram estilizados o cabeçalho e a lista de navegação com propriedades de flexbox para centralizar e espaçar os elementos.  */
 
-
+body {
+    margin: 0;
+    padding: 0;
+}
 
 .main-header{
     /* border: 2px solid red; */ /*borda pra vizualizar melhor a área*/
